@@ -1,0 +1,14 @@
+.logo {
+  width: 183px;
+  height: 30px;
+  background-image: url(../../images/logo.svg);
+  background-size: 183px 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.logo:hover .logo__path,
+.logo:focus .logo__path {
+  fill: #2e2468;
+}
