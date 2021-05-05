@@ -4,3 +4,10 @@
   font-family: 'Proto Grotesk Light Web';
   font-weight: 300;
 }
+
+@font-face {
+  src: url(./PT-Root-UI/PT-Root-UI_Regular.woff),
+       url(./PT-Root-UI/PT-Root-UI_Regular.woff2);
+  font-family: 'PT Root UI';
+  font-weight: normal;
+}

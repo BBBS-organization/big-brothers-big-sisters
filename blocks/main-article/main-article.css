@@ -1,0 +1,8 @@
+.main-article {
+  padding: 120px 0 30px;
+  width: 100%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

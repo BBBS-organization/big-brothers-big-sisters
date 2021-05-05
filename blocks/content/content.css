@@ -1,0 +1,14 @@
+.content {
+  padding-bottom: 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 870px);
+  grid-template-areas: "project-info main-history"
+                       "mentor mentor"
+                       "main-article-color-light-blue main-article-color-light-blue"
+                       "movies movies"
+                       "graduates-info graduates-info"
+                       "social-problems social-problems"
+                       "main-article-color-green main-article-color-green"
+                       ;
+  gap: 30px;
+}

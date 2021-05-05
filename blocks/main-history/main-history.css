@@ -1,0 +1,29 @@
+.main-history {
+  position: relative;
+  display: flex;
+  width: 870px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-image: url(../../images/girls.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+  border-radius: 30px;
+  grid-area: main-history;
+}
+
+.main-history::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: .8;
+  background-color: #464646;
+  border-radius: 30px;
+  mix-blend-mode: multiply;
+  z-index: -1;
+}

@@ -1,0 +1,4 @@
+.graduates-info {
+  display: flex;
+  grid-area: graduates-info;
+}

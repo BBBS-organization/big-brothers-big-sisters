@@ -1,0 +1,7 @@
+.project-info {
+  background-color: #8cdd94;
+  border-radius: 30px;
+  width: 870px;
+  overflow: hidden;
+  grid-area: project-info;
+}

@@ -1,0 +1,6 @@
+.movie {
+  width: 420px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #fff;
+}
