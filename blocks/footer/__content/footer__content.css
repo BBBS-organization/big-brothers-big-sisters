@@ -1,0 +1,21 @@
+.footer__content {
+  margin: auto;
+  padding-top: 110px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-areas: "footer-logo button menu-place-footer socials"
+                       "footer-info footer-info menu-place-footer socials";
+}
+
+@media (max-width: 1300px) {
+  .footer__content {
+    padding-top: 40px;
+    padding-bottom: 31px;
+    grid-template-areas: "footer-logo"
+                         "menu-place-footer"
+                         "socials"
+                         "button"
+                         "footer-info";
+    justify-items: center;
+  }
+}

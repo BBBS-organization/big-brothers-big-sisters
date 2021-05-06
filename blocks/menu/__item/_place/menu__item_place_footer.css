@@ -1,0 +1,21 @@
+.menu__item_place_footer {
+  margin-bottom: 20px;
+}
+
+.menu__item_place_footer:last-of-type {
+  margin-bottom: 0;
+}
+
+@media (max-width: 1300px) {
+  .menu__item_place_footer {
+    margin-top: 21px;
+    margin-bottom: 21;
+  }
+}
+
+@media (max-width: 1023px) {
+  .menu__item_place_footer {
+    margin-top: 0;
+    margin-bottom: 17;
+  }
+}

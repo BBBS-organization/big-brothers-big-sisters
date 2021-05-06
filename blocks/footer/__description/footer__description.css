@@ -1,0 +1,12 @@
+@media (max-width: 1300px) {
+  .footer__description {
+    display: flex;
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer__description {
+    display: flex;
+    flex-direction: column;
+  }
+}

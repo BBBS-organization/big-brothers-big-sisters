@@ -6,3 +6,10 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 1300px) {
+  .main-article {
+    padding: 30px 0 15px;
+    justify-content: space-between;
+  }
+}

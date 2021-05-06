@@ -1,0 +1,21 @@
+.menu__list_place_footer {
+  flex-direction: column;
+  margin-right: 44px;
+}
+
+@media (max-width: 1300px) {
+  .menu__list_place_footer {
+    flex-direction: row;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .menu__list_place_footer {
+    margin-top: 21px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

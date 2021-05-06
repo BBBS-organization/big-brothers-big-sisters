@@ -2,3 +2,21 @@
   width: 92.1875%;
   margin: 0 auto;
 }
+
+@media (max-width: 1500px) {
+  .section {
+    width: 81.25%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .section {
+    width: 75.195312%;
+  }
+}
+
+@media (max-width: 500px) {
+  .section {
+    width: 90.625%;
+  }
+}

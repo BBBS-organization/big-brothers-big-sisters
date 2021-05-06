@@ -2,3 +2,9 @@
   display: flex;
   grid-area: mentor;
 }
+
+@media (max-width: 1300px) {
+  .mentor {
+    flex-direction: column;
+  }
+}

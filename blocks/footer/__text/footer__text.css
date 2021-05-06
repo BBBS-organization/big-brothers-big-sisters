@@ -1,0 +1,21 @@
+.footer__text {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Root UI', 'Arial', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: normal;
+  color: #f3f2f2;
+}
+
+@media (max-width: 1300px) {
+  .footer__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .footer__text  {
+    text-align: center;
+  }
+}

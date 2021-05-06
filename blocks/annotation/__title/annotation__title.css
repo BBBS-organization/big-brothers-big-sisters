@@ -7,3 +7,10 @@
   letter-spacing: .2px;
   color: #464646;
 }
+
+@media (max-width: 1300px) {
+  .annotation__title {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}

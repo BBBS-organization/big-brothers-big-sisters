@@ -1,6 +1,6 @@
 .movie__info {
   box-sizing: border-box;
-  padding: 15px 30px 15px;
+  padding: 0px 30px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;

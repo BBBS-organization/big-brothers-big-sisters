@@ -1,0 +1,12 @@
+.menu_place_footer {
+  grid-area: menu-place-footer;
+}
+
+@media (max-width: 1300px) {
+  .menu_place_footer {
+    border-bottom: 1px solid #c8d1ff;
+     margin-top: 20x;
+  }
+}
+
+

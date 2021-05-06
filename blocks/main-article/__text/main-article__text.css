@@ -7,5 +7,19 @@
   font-weight: 300;
   text-align: center;
   color: #1a1a1a;
+}
 
+@media (max-width: 1400px) {
+  .main-article__text {
+    max-width: 89.654%;
+    font-size: 19px;
+    line-height: 1.21;
+    padding-bottom: 181px;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-article__text {
+    padding-bottom: 66px;
+  }
 }

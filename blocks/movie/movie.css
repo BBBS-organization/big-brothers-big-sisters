@@ -1,6 +1,44 @@
 .movie {
-  width: 420px;
+  max-width: 420px;
   box-sizing: border-box;
   border-radius: 30px;
   background-color: #fff;
+  margin-right: 30px;
+}
+
+.movie:last-of-type {
+  margin-right: 0;
+}
+
+@media (max-width: 1900px) {
+  .movie {
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .movie {
+    max-width: 370px;
+  }
+  .movie:last-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 1403px) {
+  .movie:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  .movie {
+    max-width: 290px;
+  }
+}
+
+@media (max-width: 790px) {
+  .movie:nth-child(2) {
+    display: none;
+  }
 }

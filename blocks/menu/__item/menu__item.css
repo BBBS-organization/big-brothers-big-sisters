@@ -6,3 +6,13 @@
 .menu__item:last-of-type {
   margin-right: 0;
 }
+
+@media (max-width: 1300px) {
+  .menu__item {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .menu__item:first-of-type {
+    margin-left: 0;
+  }
+}

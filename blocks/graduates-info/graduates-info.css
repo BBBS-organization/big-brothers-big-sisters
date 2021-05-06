@@ -1,4 +1,5 @@
 .graduates-info {
+  width: 100%;
   display: flex;
   grid-area: graduates-info;
 }

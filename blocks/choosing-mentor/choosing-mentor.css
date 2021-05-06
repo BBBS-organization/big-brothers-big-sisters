@@ -4,7 +4,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1185px;
   background-color: #f8d162;
   border-radius: 30px;
+}
+
+@media (max-width: 1300px) {
+  .choosing-mentor {
+    padding: 15px 15px 15px;
+  }
 }

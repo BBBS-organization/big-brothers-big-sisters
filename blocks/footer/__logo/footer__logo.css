@@ -1,0 +1,28 @@
+.footer__logo {
+  margin-top: -20px;
+  margin-right: 85px;
+  display: block;
+  width: 415px;
+  height: 76px;
+  background-image: url(../../../images/bbbs-logo-place-footer.svg);
+  background-size: 415px 76px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  grid-area: footer-logo;
+}
+
+@media (max-width: 1300px)  {
+  .footer__logo {
+    margin: 0 auto;
+    width: 252px;
+    height: 46px;
+    background-size: 252px 46px;
+  }
+}
+
+@media (max-width: 1023px)  {
+  .footer__logo {
+    margin-bottom: 20px;
+  }
+}

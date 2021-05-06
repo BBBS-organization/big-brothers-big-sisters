@@ -7,3 +7,10 @@
   font-weight: normal;
   color: #000;
 }
+
+@media (max-width: 1300px) {
+  .annotation__paragraph {
+    padding-top: 0;
+    font-size: 15px;
+  }
+}

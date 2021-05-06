@@ -6,3 +6,10 @@
   letter-spacing: .2px;
   color: #224cff;
 }
+
+@media (max-width: 1300px) {
+  .footer-subtitle {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}

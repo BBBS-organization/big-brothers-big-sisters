@@ -1,0 +1,5 @@
+@media (max-width: 1400px) {
+  .menu_place_header {
+    display: none;
+  }
+}

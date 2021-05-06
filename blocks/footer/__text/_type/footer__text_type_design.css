@@ -1,0 +1,18 @@
+.footer__text_type_design {
+  align-self: flex-end;
+  margin-left: 30px;
+}
+
+@media (max-width: 1300px) {
+  .footer__text_type_design {
+    align-self: start;
+  }
+}
+
+@media (max-width: 1023px) {
+  .footer__text_type_design {
+    margin-left: 0;
+    margin-top: 5px;
+    align-self: center;
+  }
+}
