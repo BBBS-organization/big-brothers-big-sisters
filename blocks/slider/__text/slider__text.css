@@ -1,0 +1,21 @@
+.slider__text {
+  margin: 0;
+  padding-right: 15px;
+  font-family: 'PT Root UI';
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: normal;
+  color: #000;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e8e6e6;
+  border-radius: 5px;
+}
+
+

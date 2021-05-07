@@ -1,0 +1,5 @@
+.place {
+  max-width: 570px;
+  display: flex;
+  flex-direction: column;
+}
