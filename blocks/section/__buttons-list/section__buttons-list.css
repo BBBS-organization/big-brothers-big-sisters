@@ -1,0 +1,9 @@
+.section__buttons-list {
+  margin-top: 40px;
+}
+
+@media (max-width: 1300px) {
+  .section__buttons-list {
+    margin-top: 20px;
+  }
+}

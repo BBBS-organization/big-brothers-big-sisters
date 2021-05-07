@@ -1,0 +1,27 @@
+.calendar__text {
+  margin: 0;
+  padding: 10px 0;
+  font-family: 'PT Root UI';
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: normal;
+  letter-spacing: .2px;
+  color: #1a1a1a;
+  border-bottom: 1px solid #a7a6a6;
+}
+
+.calendar__text:first-of-type {
+  padding-top: 0;
+}
+
+.calendar__text:last-of-type {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+@media (max-width: 1300px) {
+  .calendar__text {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+}

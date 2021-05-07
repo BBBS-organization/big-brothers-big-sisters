@@ -1,0 +1,17 @@
+.calendar__day {
+  margin: 0;
+  font-family: 'PT Root UI';
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: normal;
+  color: #000;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media (max-width: 1300px) {
+  .calendar__day {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}

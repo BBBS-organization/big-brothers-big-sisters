@@ -14,7 +14,7 @@
 
 @media (max-width: 1400px) {
   .menu-buttons__item:first-of-type {
-    border-right: 0px;
+    border-right: none;
   }
 
   .menu-buttons__item:last-of-type {

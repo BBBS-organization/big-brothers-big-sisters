@@ -1,0 +1,12 @@
+.calendar__date {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@media (max-width: 1300px) {
+  .calendar__date {
+    padding-top: 5px;
+  }
+}

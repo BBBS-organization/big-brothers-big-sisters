@@ -1,0 +1,15 @@
+.calendar__number {
+  margin: 0;
+  font-size: 100px;
+  line-height: 1;
+  font-weight: 300;
+  letter-spacing: -2px;
+  color: #000;
+  text-align: right;
+}
+
+@media (max-width: 1300px) {
+  .calendar__number {
+    font-size: 60px;
+  }
+}

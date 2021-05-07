@@ -1,0 +1,16 @@
+.calendar__participants {
+  margin: 0;
+  font-family: 'PT Root UI';
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: normal;
+  color: #464646;
+  letter-spacing: .2px;
+}
+
+@media (max-width: 1300px) {
+  .calendar__participants {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}

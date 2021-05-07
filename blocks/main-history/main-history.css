@@ -27,3 +27,16 @@
   mix-blend-mode: multiply;
   z-index: -1;
 }
+
+@media (max-width: 1500px) {
+  .main-history::after {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .main-history {
+    display: block;
+    padding-bottom: 100%;
+  }
+}

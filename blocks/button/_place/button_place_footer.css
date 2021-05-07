@@ -1,0 +1,12 @@
+.button_place_footer {
+  margin-right: 131px;
+  color: #f3f2f2;
+  border-color: #f3f2f2;
+}
+
+@media (max-width: 1300px) {
+  .button_place_footer {
+    margin-top: 10px;
+    margin-right: 0;
+  }
+}

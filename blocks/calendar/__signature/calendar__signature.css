@@ -1,0 +1,16 @@
+.calendar__signature {
+  margin: 0;
+  padding-left: 15px;
+  font-family: 'PT Root UI';
+  font-size: 14px;
+  line-height:  1.35;
+  font-weight: normal;
+  color: #000;
+}
+
+@media (max-width: 1300px) {
+  .calendar__signature {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+}

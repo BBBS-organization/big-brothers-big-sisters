@@ -1,0 +1,15 @@
+.calendar__content {
+  padding-top: 50px;
+}
+
+@media (max-width: 1300px) {
+  .calendar__content {
+    padding-top: 82px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .calendar__content {
+    padding-top: 50px;
+  }
+}

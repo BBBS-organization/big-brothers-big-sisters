@@ -16,6 +16,7 @@
 @import url(../blocks/menu-button/menu-button.css);
 @import url(../blocks/menu-button/_type/menu-button_type_search.css);
 @import url(../blocks/menu-button/_type/menu-button_type_private-area.css);
+@import url(../blocks/menu-button/_authorized/menu-button_authorized.css);
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/project-info/project-info.css);
@@ -58,6 +59,7 @@
 @import url(../blocks/main-problems/main-problems.css);
 @import url(../blocks/problem/problem.css);
 @import url(../blocks/problem/__section-title/problem__section-title.css);
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -67,12 +69,33 @@
 @import url(../blocks/menu/__link/_place/menu__link_place_footer.css);
 @import url(../blocks/menu/__item/_place/menu__item_place_footer.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/_place/button_place_footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/menu/_place/menu_place_footer.css);
 @import url(../blocks/footer/__text/_type/footer__text_type_design.css);
 @import url(../blocks/footer/__text/_type/footer__text_type_copyright.css);
 @import url(../blocks/footer/__description/footer__description.css);
+
+@import url(../blocks/calendar/calendar.css);
+@import url(../blocks/calendar/__button/calendar__button.css);
+@import url(../blocks/calendar/__content/calendar__content.css);
+@import url(../blocks/calendar/__date/calendar__date.css);
+@import url(../blocks/calendar/__day/calendar__day.css);
+@import url(../blocks/calendar/__footer/calendar__footer.css);
+@import url(../blocks/calendar/__header/calendar__header.css);
+@import url(../blocks/calendar/__name/calendar__name.css);
+@import url(../blocks/calendar/__number/calendar__number.css);
+@import url(../blocks/calendar/__participants/calendar__participants.css);
+@import url(../blocks/calendar/__participation/calendar__participation.css);
+@import url(../blocks/calendar/__section-title/calendar__section-title.css);
+@import url(../blocks/calendar/__signature/calendar__signature.css);
+@import url(../blocks/calendar/__text/calendar__text.css);
+@import url(../blocks/calendar/__text/_type/calendar__text_type_address.css);
+@import url(../blocks/calendar/__text/_type/calendar__text_type_people.css);
+@import url(../blocks/calendar/__text/_type/calendar__text_type_time.css);
+@import url(../blocks/button/_color/button_color_blue.css);
+
 
 @media (max-width: 1500px) {
   .project-info__text {

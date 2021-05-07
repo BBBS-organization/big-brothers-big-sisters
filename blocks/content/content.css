@@ -15,6 +15,7 @@
 
 @media (max-width: 850px) {
   .content {
+    padding-bottom: 50px;
     grid-template-columns: 100%;
     grid-template-areas: "project-info"
                          "main-history"
