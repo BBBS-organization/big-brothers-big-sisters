@@ -1,0 +1,7 @@
+.about__square {
+  width: 570px;
+  height: 570px;
+  border-radius: 50%;
+  background-color: #f8d162;
+  display: flex;
+}

@@ -1,0 +1,9 @@
+.about-card__bottom {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: stretch;
+}

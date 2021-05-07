@@ -1,0 +1,13 @@
+.bbbs-logo_place_index {
+  width: 252px;
+  height: 46px;
+  background-size: 252px 46px;
+}
+
+@media (max-width: 1300px) {
+  .bbbs-logo_place_index{
+    width: 164px;
+    height: 30px;
+    background-size: 164px 30px;
+  }
+}

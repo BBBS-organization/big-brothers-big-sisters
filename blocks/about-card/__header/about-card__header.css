@@ -1,0 +1,6 @@
+.about-card__header {
+  width: calc(100% - 2px);
+  padding: 45px 0;
+  border-radius: 70px;
+  box-sizing: border-box;
+}

@@ -6,11 +6,6 @@
 @import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
-
-@import url(../blocks/bbbs-logo/bbbs-logo.css);
-@import url(../blocks/bbbs-logo/_place/bbbs-logo_place_index.css);
-
-
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/_place/menu_place_header.css);
 @import url(../blocks/menu/__list/menu__list.css);
@@ -65,6 +60,10 @@
 @import url(../blocks/problem/problem.css);
 @import url(../blocks/problem/__section-title/problem__section-title.css);
 
+@import url(../blocks/bbbs-logo/bbbs-logo.css);
+@import url(../blocks/bbbs-logo/_place/bbbs-logo_place_about.css);
+
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
 @import url(../blocks/footer/__logo/footer__logo.css);
@@ -101,45 +100,25 @@
 @import url(../blocks/calendar/__text/_type/calendar__text_type_time.css);
 @import url(../blocks/button/_color/button_color_blue.css);
 
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
 
-@media (max-width: 1500px) {
-  .project-info__text {
-    padding: 72.5px 0;
-    max-width: 510px;
-  }
+@import url(../blocks/about/__info/about__info.css);
+@import url(../blocks/about/__square/about__square.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__section-title/about__section-title.css);
 
-  .project-info__container_content_logo {
-    padding: 35px 127.03px 43px 0px;
-    transform: translateX(-40%);
-  }
-}
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__quote/about__quote.css);
+@import url(../blocks/about/__quote-text/about__quote-text.css);
 
-@media (max-width: 1300px) {
-  .project-info__text {
-    padding: 89px 0;
-    font-size: 19px;
-    max-width: 340px;
-  }
-  .project-info__container {
-    border-radius: 70px 70px 30px 30px;
-  }
+@import url(../blocks/about-card/about-card.css);
+@import url(../blocks/about-card/__header/about-card__header.css);
+@import url(../blocks/about-card/__bottom/about-card__bottom.css);
+@import url(../blocks/about-card/__text/about-card__text.css);
+@import url(../blocks/about-card/__header/_color/about-card__header_color_light-blue.css);
 
+@import url(../blocks/body-text/body-text.css);
 
-  .project-info__container_content_logo {
-    padding: 27px 88px 33px 0px;
-    transform: translateX(-30%);
-    border-radius: 30px 3px 200px 3px;
-  }
-}
-
-@media(max-width: 1000px) {
-  .project-info__text {
-    padding: 36px 0;
-    max-width: 260px;
-  }
-
-  .project-info__container_content_logo {
-    padding: 22px 50px 26px 0px;
-    transform: translateX(-30%);
-  }
-}
+@import url(../blocks/about-card/__footer-subtitle/about-card__footer-subtitle.css);
+@import url(../blocks/about-cards/about-cards.css);

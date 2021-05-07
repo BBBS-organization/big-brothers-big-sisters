@@ -1,0 +1,13 @@
+.about__paragraph {
+  margin: 0;
+  padding-bottom: 30px;
+  font-family: 'PT Root UI';
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: normal;
+  color: #000;
+}
+
+.about__paragraph:last-of-type {
+  padding-bottom: 0;;
+}
