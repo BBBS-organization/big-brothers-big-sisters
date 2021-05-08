@@ -1,0 +1,14 @@
+.list-of-contents__buttons {
+  margin: 0;
+  padding: 0;
+  padding-right: 45px;
+  list-style-type: none;
+  display: flex;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1300px) {
+  .list-of-contents__buttons {
+    padding-right: 25px;
+  }
+}

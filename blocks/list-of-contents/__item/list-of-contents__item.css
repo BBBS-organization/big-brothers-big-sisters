@@ -1,0 +1,7 @@
+
+
+@media (max-width: 1300px) {
+  .list-of-contents__item:nth-of-type(5) {
+    display: none;
+  }
+}

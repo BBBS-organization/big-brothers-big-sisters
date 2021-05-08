@@ -1,0 +1,11 @@
+.list-of-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 850px) {
+  .list-of-contents {
+    justify-content: flex-end;
+  }
+}
