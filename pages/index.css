@@ -115,6 +115,7 @@
 
 @import url(../blocks/problem/__heading/problem__heading.css);
 
+@import url(../blocks/button/_place/button_place_calendar.css);
 
 @media (max-width: 1500px) {
   .project-info__text {

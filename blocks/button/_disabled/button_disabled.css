@@ -1,0 +1,5 @@
+.button_disabled {
+  background-color: transparent;
+  border: 1px solid #a7a6a6;
+  color: #a7a6a6;
+}
