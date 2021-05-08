@@ -1,0 +1,9 @@
+.kudago__mentor {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1300px) {
+  .kudago__mentor {
+    padding-bottom: 30px;
+  }
+}

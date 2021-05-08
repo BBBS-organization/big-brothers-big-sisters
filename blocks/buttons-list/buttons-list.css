@@ -1,6 +1,22 @@
 .buttons-list {
-  padding: 0;
+  margin: 0 auto;
+  padding: 25px 0 80px;
+  max-width: 840px;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1300px) {
+  .buttons-list {
+    padding: 5px 0 50px;
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 850px) {
+  .buttons-list {
+    padding: 5px 0 30px;
+  }
 }

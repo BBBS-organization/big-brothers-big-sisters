@@ -8,3 +8,17 @@
   color: #000;
   text-align: center;
 }
+
+@media (max-width: 1500px) {
+  .about__title {
+    max-width: 1030px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about__title {
+    max-width: 770px;
+    font-size: 19px;
+    line-height: 1.2;
+  }
+}

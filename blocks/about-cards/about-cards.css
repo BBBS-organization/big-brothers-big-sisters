@@ -1,16 +1,25 @@
 .about-cards {
   margin: 0 auto;
   padding: 0;
+  padding-bottom: 120px;
   list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   gap: 30px;
-  align-items: stretch;
+  justify-items: center;
 }
 
 @media (max-width: 1300px) {
   .about-cards {
+    padding-bottom: 100px;
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .about-cards {
+    padding-bottom: 50px;
     grid-template-columns: 100%;
   }
 }

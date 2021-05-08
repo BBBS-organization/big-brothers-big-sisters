@@ -122,3 +122,5 @@
 
 @import url(../blocks/about-card/__footer-subtitle/about-card__footer-subtitle.css);
 @import url(../blocks/about-cards/about-cards.css);
+
+@import url(../blocks/about/__title/_place/about-title_place_quote.css);

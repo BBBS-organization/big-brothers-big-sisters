@@ -1,7 +1,23 @@
 .about__description {
   width: 600px;
+  max-height: 466px;
+  overflow: scroll;
   padding: 52px 30px;
   box-sizing: border-box;
   background-color: #fff;
   border-radius: 30px;
+}
+
+@media (max-width: 1300px) {
+  .about__description {
+    width: 570px;
+    max-height: 373px;
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 850px) {
+  .about__description {
+    width: 90%;
+  }
 }

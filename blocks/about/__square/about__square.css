@@ -5,3 +5,17 @@
   background-color: #f8d162;
   display: flex;
 }
+
+@media (max-width: 1300px) {
+  .about__square {
+    width: 370px;
+    height: 358px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about__square {
+    width: 290px;
+    height: 280px;
+  }
+}

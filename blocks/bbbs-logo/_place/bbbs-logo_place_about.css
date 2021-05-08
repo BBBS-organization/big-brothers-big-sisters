@@ -4,3 +4,18 @@
   height: 65px;
   background-size: 357px 65px;
 }
+
+@media (max-width: 1300px) {
+  .bbbs-logo_place_about {
+    margin: 30px auto 50px;
+    width: 252px;
+    height: 46px;
+    background-size: 252px 46px;
+  }
+}
+
+@media (max-width: 850px) {
+  .bbbs-logo_place_about {
+    margin: 20px auto 30px;
+  }
+}

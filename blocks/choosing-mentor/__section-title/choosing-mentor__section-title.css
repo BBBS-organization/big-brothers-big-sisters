@@ -2,3 +2,9 @@
   padding-top: 15px;
   padding-bottom: 5px;
 }
+
+@media (max-width: 1300px) {
+  .choosing-mentor__section-title {
+    padding-top: 5px;
+  }
+}
