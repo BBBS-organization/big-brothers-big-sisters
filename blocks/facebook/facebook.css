@@ -1,0 +1,16 @@
+.facebook {
+  width: 420px;
+  border-radius: 30px;
+}
+
+@media (max-width: 1500px) {
+  .facebook {
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 850px) {
+  .facebook {
+    max-width: 290px;
+  }
+}

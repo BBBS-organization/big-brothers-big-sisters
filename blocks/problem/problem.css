@@ -3,4 +3,11 @@
   background-color: #fff;
   box-sizing: border-box;
   border-radius: 30px;
+  flex-grow: 1;
+}
+
+@media (max-width: 1300px) {
+  .problem {
+    padding: 30px 16px 30px 15px;
+  }
 }

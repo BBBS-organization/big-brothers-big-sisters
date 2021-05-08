@@ -66,3 +66,7 @@
 @import url(../blocks/footer/__text/_type/footer__text_type_design.css);
 @import url(../blocks/footer/__text/_type/footer__text_type_copyright.css);
 @import url(../blocks/footer/__description/footer__description.css);
+
+@import url(../blocks/slider/__section-subtitle/slider__section-subtitle.css);
+@import url(../blocks/place/__section-subtitle/place__section-subtitle.css);
+@import url(../blocks/place/__section-title/place__section-title.css);

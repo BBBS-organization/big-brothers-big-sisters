@@ -1,4 +1,20 @@
 .social-problems{
-  display: flex;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 420px 1fr;
+  gap: 30px;
   grid-area: social-problems;
+}
+
+@media (max-width: 1500px) {
+  .social-problems {
+    grid-template-columns: 370px 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .social-problems {
+    grid-template-columns: 100%;
+    justify-items: center;
+  }
 }

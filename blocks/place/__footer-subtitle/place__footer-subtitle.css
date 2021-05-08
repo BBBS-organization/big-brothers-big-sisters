@@ -1,3 +1,21 @@
 .place__footer-subtitle {
   margin-top: 99px;
 }
+
+@media (max-width: 1500px) {
+  .place__footer-subtitle {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .place__footer-subtitle {
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 850px) {
+  .place__footer-subtitle {
+    margin-top: 22px;
+  }
+}

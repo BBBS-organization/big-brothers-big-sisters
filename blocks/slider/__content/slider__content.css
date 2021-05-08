@@ -1,4 +1,11 @@
 .slider__content {
-  height: 162px;
+  height: 169px;
   overflow: scroll;
+  padding: 0;
+}
+
+@media (max-width: 1300px) {
+  .slider__content {
+    height: 140px;
+  }
 }

@@ -3,3 +3,10 @@
   display: flex;
   grid-area: graduates-info;
 }
+
+@media (max-width: 1300px) {
+  .graduates-info {
+    flex-direction: column;
+  }
+
+}

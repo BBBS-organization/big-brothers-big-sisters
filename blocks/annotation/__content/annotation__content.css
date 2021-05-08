@@ -1,0 +1,8 @@
+
+
+@media (max-width: 1300px) {
+  .annotation__content {
+    max-height: 128px;
+      overflow: scroll;
+  }
+}

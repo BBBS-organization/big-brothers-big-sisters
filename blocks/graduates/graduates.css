@@ -1,5 +1,13 @@
 .graduates {
-  max-width: 1199px;
-  height: 675px;
+  width: 68%;
+  min-height: auto;
   border-radius: 30px;
+}
+
+@media (max-width: 1300px) {
+  .graduates {
+    width: 100%;
+    min-height: auto;
+    order: -1;
+  }
 }
