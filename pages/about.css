@@ -124,3 +124,10 @@
 @import url(../blocks/about-cards/about-cards.css);
 
 @import url(../blocks/about/__title/_place/about-title_place_quote.css);
+
+
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/_color/container_color_green.css);
+@import url(../blocks/container/_color/container_color_yellow.css);
+@import url(../blocks/container/_color/container_color_orange.css);
+@import url(../blocks/container/_color/container_color_light-blue.css);

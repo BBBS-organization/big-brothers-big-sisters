@@ -1,0 +1,18 @@
+.book__authors {
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'PT Root UI';
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: normal;
+  letter-spacing: .2px;
+  text-align: center;
+  color: #000;
+}
+
+@media (max-width: 1400px) {
+  .book__authors {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+}

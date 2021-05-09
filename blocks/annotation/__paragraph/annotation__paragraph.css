@@ -6,6 +6,7 @@
   line-height: 1.4;
   font-weight: normal;
   color: #000;
+
 }
 
 @media (max-width: 1300px) {
@@ -13,4 +14,8 @@
     padding-top: 0;
     font-size: 15px;
   }
+}
+
+.annotation__paragraph:first-of-type {
+  padding-top: 0;
 }

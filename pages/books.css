@@ -151,3 +151,10 @@
 
 @import url(../blocks/movie/__header/movie__header.css);
 @import url(../blocks/card-slider/card-slider.css);
+
+@import url(../blocks/book/book.css);
+@import url(../blocks/book/__cover/book__cover.css);
+@import url(../blocks/book/__cover/_type/book__cover_type_fiction.css);
+@import url(../blocks/book/__cover/_type/book__cover_type_scientific.css);
+@import url(../blocks/book/divider/book__divider.css);
+@import url(../blocks/book/__authors/book__authors.css);

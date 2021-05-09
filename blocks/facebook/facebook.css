@@ -1,10 +1,35 @@
 .facebook {
   width: 420px;
   border-radius: 30px;
+  overflow: hidden;
+  height: 677px;
+  flex-grow: 1;
+}
+
+.fb-page {
+  width: 420px;
+  max-width: 420px;
 }
 
 @media (max-width: 1500px) {
   .facebook {
+    width: 370px;
+
+  }
+
+  .fb-page {
+    width: 370px;
+    max-width: 370px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .facebook {
+    max-width: 370px;
+    min-height: 552px;
+  }
+
+  .fb-page {
     max-width: 370px;
   }
 }
@@ -12,5 +37,12 @@
 @media (max-width: 850px) {
   .facebook {
     max-width: 290px;
+    min-height: 433px;
+  }
+
+  .fb-page {
+    width: 100%;
   }
 }
+
+

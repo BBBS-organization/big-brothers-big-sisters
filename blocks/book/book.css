@@ -1,0 +1,10 @@
+.book {
+  padding: 30px 0;
+  width: 100%;
+  min-width: 290px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+

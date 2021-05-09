@@ -1,0 +1,9 @@
+.video__graduates-info {
+  padding-bottom: 80px;
+}
+
+@media (max-width: 1300px) {
+  .video__graduates-info {
+    padding-bottom: 30px;
+  }
+}

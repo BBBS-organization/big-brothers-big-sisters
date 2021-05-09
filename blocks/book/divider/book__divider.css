@@ -1,0 +1,12 @@
+.book__divider {
+  margin: 0 auto;
+  width: 66.67px;
+  height: 1px;
+  background-color: #000;
+}
+
+@media (max-width: 1400px) {
+  .book__divider {
+    width: 60px;
+  }
+}

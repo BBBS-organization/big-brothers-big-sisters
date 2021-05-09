@@ -1,0 +1,17 @@
+.list-grid_place_articles {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 1300px) {
+  .list-grid_place_articles {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .list-grid_place_articles {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

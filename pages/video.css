@@ -149,5 +149,14 @@
 @import url(../blocks/kudago/__mentor/kudago__mentor.css);
 @import url(../blocks/page/__footer/page__footer.css);
 
-@import url(../blocks/movie/__header/movie__header.css);
-@import url(../blocks/card-slider/card-slider.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/graduates-info/graduates-info.css);
+@import url(../blocks/ether/ether.css);
+@import url(../blocks/graduates/graduates.css);
+
+@import url(../blocks/section/section.css);
+@import url(../blocks/movie/__section-title/movie__section-title.css);
+@import url(../blocks/movie/__footer-subtitle/movie__footer-subtitle.css);
+
+@import url(../blocks/video/__graduates-info/video__graduates-info.css);
