@@ -3,4 +3,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  display: none;
+}
+
+.card-slider:nth-child(-n + 16) {
+  display: block;
+}
+
+@media (max-width: 1300px) {
+  .card-slider:nth-child(-n + 2) {
+    display: block;
+  }
+
+  .card-slider:nth-last-child(-n + 14) {
+    display: none;
+  }
+
 }

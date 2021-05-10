@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
@@ -35,6 +36,7 @@
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/heading/heading.css);
+@import url(../blocks/heading/__text/heading__text.css);
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__header/place__header.css);
 @import url(../blocks/place/__header/_color/place__header_color_green.css);
@@ -56,6 +58,7 @@
 @import url(../blocks/menu/__item/_place/menu__item_place_footer.css);
 @import url(../blocks/section/__buttons-list/section__buttons-list.css);
 @import url(../blocks/buttons-list/buttons-list.css);
+@import url(../blocks/buttons-list/__item/buttons-list__item.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_footer.css);
 @import url(../blocks/button/_place/button_place_buttons-list.css);
@@ -75,3 +78,9 @@
 @import url(../blocks/choosing-mentor/__section-title/choosing-mentor__section-title.css);
 @import url(../blocks/kudago/__mentor/kudago__mentor.css);
 @import url(../blocks/page/__footer/page__footer.css);
+
+@import url(../blocks/kudago/__place/kudago__place.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/_color/container_color_green.css);
+@import url(../blocks/container/_color/container_color_yellow.css);
+@import url(../blocks/container/_color/container_color_orange.css);

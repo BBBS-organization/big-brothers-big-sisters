@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
@@ -116,6 +117,9 @@
 @import url(../blocks/problem/__heading/problem__heading.css);
 
 @import url(../blocks/button/_place/button_place_calendar.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__movie/main__movie.css);
 
 @media (max-width: 1500px) {
   .project-info__text {

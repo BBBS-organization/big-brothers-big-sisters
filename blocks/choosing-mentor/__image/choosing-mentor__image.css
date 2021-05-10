@@ -1,22 +1,23 @@
 .choosing-mentor__image {
+  display: block;
   width: 100%;
   height: 394px;
-  padding-top: 70px;
-  padding-bottom: 15px;
-  object-fit: cover;
-  object-position: top center;
+  margin-top: 70px;
+  margin-bottom: 15px;
   border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
 }
 
 @media (max-width: 1300px) {
   .choosing-mentor__image {
-    padding-top: 62px;
+    margin-top: 62px;
   }
 }
 
 @media (max-width: 800px) {
   .choosing-mentor__image {
-    padding-top: 39px;
+    margin-top: 39px;
     height: 142px;
   }
 }

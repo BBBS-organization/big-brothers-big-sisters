@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 @media (max-width: 1300px) {
@@ -17,6 +18,15 @@
 
 @media (max-width: 850px) {
   .buttons-list {
+    max-width: 100%;
+    display: block;
+    text-align: center;
     padding: 5px 0 30px;
+    overflow: auto;
+    white-space: nowrap;
   }
+}
+
+.buttons-list::-webkit-scrollbar-thumb {
+  background-color: #f3f2f2;
 }

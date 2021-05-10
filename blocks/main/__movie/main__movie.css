@@ -1,0 +1,25 @@
+.main__movie {
+  display: none;
+}
+
+.main__movie:nth-child(-n + 4) {
+  display: block;
+}
+
+@media (max-width: 1500px) {
+  .main__movie:nth-last-child(-n + 1) {
+    display: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .main__movie:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .main__movie:nth-last-child(-n + 3) {
+    display: none;
+  }
+}

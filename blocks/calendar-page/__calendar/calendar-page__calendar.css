@@ -1,0 +1,13 @@
+.calendar-page__calendar {
+  display: none;
+}
+
+.calendar-page__calendar:nth-child(-n + 5) {
+  display: block;
+}
+
+@media (max-width: 1300px) {
+  .calendar-page__calendar:nth-last-child(-n + 3) {
+    display: none;
+  }
+}

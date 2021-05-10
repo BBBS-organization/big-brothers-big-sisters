@@ -1,9 +1,24 @@
-
+.annotation__content {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 @media (max-width: 1300px) {
   .annotation__content {
     padding-right: 5px;
-    max-height: 130px;
-      overflow: scroll;
+    max-height: 140px;
+    overflow: scroll;
   }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  padding: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #e8e6e6;
+  border-radius: 5px;
 }

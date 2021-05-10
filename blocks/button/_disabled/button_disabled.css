@@ -3,3 +3,9 @@
   border: 1px solid #a7a6a6;
   color: #a7a6a6;
 }
+
+.button_disabled:hover,
+.button_disabled:focus {
+  background-color: transparent;
+  color: #a7a6a6;
+}

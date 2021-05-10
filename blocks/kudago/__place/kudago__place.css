@@ -1,0 +1,19 @@
+.kudago__place {
+  display: none;
+}
+
+.kudago__place:nth-child(-n + 3) {
+  display: block;
+}
+
+@media (max-width: 1300px) {
+  .kudago__place:nth-last-child(-n + 1) {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .kudago__place:nth-last-child(-n + 2) {
+    display: none;
+  }
+}

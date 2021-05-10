@@ -2,4 +2,19 @@
   max-width: 570px;
   display: flex;
   flex-direction: column;
+  display: none;
+}
+
+.place:nth-child(-n + 16) {
+  display: block;
+}
+
+@media (max-width: 1300px) {
+  .place:nth-child(-n + 2) {
+    display: block;
+  }
+
+  .place:nth-last-child(-n + 10) {
+    display: none;
+  }
 }

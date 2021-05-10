@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/index.css">
   <title>Document</title>
 </head>
-<body>
-  <div class="page">
+
+<body class="body">
+  <div class="page main">
     <header class="header section">
       <a class="logo-link" href="#">
-        <h1 class="logo">наставники.про</h1>
-        </a>
-
+        <p class="logo">наставники.про</p>
+      </a>
       <nav class="menu menu_place_header">
         <ul class="menu__list">
           <li class="menu__item"><a class="menu__link" href="#">календарь</a></li>
@@ -47,7 +48,8 @@
         </div>
         <div class="calendar__content">
           <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
-          <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
+          <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании
+            Ernst&Young)</p>
           <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
           <div class="calendar__footer">
             <div class="calendar__participation">
@@ -61,149 +63,177 @@
       <a class="main-history" href="#">
         <p class="main-history__title main-history__title_place_index-authorized">История Марины и Алины</p>
       </a>
-
-
       <section class="mentor">
-      <div class="choosing-mentor">
-        <button class="heading">выбор наставника</button>
-        <h2 class="section-title choosing-mentor__section-title">Сплав на байдарках в две строки</h2>
-        <p class="section-subtitle">усадьба Архангельское в две строки</p>
-        <img class="choosing-mentor__image" src="images/choosing-mentor.jpg" alt="Девушки на пляже">
-        <p class="footer-subtitle">перейти на сайт</p>
-      </div>
-      <div class="annotation">
-        <div class="annotation__content">
-        <p class="annotation__title">Девочка, 10 лет. Активный отдых</p>
-        <div class="annotation__text">
-          <p class="annotation__paragraph"> Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился
-          говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не 
-          понимать друг друга,  потом понимать чуть лучше и, Аннотация статьи в несколько абзацев. В тот момент,
-          как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
-          Вы будете не понимать друг друга,  потом понимать чуть лучше и,</p>
-        <p class="annotation__paragraph">Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а 
-          задавать бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько абзацев.
-          В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.</p>
-      </div>
-    </div>
-    </div>
-  </section>
-
-    <article class="main-article main-article_color_light-blue">
-      <p class="main-article__text">Развитие детей-сирот отличается от развития детей, живущих в семьях. Все  этапы развития у детей-сирот
-        проходят с искажениями и имеют ряд негативных  особенностей. </p>
+        <div class="choosing-mentor">
+          <div class="heading">
+            <p class="heading__text">выбор наставника</p>
+          </div>
+          <h2 class="section-title choosing-mentor__section-title">Сплав на байдарках в две строки</h2>
+          <p class="section-subtitle">усадьба Архангельское в две строки</p>
+          <img class="choosing-mentor__image"
+            srcset="images/choosing-mentor-1440.jpg 1440w, images/choosing-mentor-1024.jpg 1024w, images/choosing-mentor-850.jpg 320w"
+            sizes="(max-width: 1920px) 1920px, (max-width: 1440px) 1440px, (max-width: 1024px) 1024px, (max-width: 850px) 850px"
+            src="images/choosing-mentor.jpg" alt="Девушки на пляже">
+          <p class="footer-subtitle">перейти на сайт</p>
+        </div>
+        <div class="annotation">
+          <div class="annotation__content">
+            <h2 class="annotation__title">Девочка, 10 лет. Активный отдых</h2>
+            <div class="annotation__text">
+              <p class="annotation__paragraph"> Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился
+                говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не 
+                понимать друг друга, потом понимать чуть лучше и, Аннотация статьи в несколько абзацев. В тот момент,
+                как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь
+                меняется.
+                Вы будете не понимать друг друга, потом понимать чуть лучше и,</p>
+              <p class="annotation__paragraph">Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился
+                говорить, и не одно слово, а 
+                задавать бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько
+                абзацев.
+                В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество
+                вопросов, жизнь меняется.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <article class="main-article main-article_color_light-blue">
+        <h2 class="main-article__text">Развитие детей-сирот отличается от развития детей, живущих в семьях. Все этапы
+          развития у детей-сирот
+          проходят с искажениями и имеют ряд негативных особенностей. </h2>
         <p class="footer-subtitle">читать статью</p>
-    </article>
-
-    <section class="movies">
-      <ul class="movies__list">
-
-        <li class="movie">
-          <div class="movie__container">
-            <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
-            <div class="movie__heading-container">
-              <button class="heading">рубрика</button>
-              <button class="heading">рубрика</button>
+      </article>
+      <section class="movies">
+        <ul class="movies__list">
+          <li class="movie main__movie">
+            <div class="movie__container">
+              <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
+              <div class="movie__heading-container">
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="movie__info">
-            <div class="movie__top">
-              <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
-              <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
-            </div>
+            <div class="movie__info">
+              <div class="movie__top">
+                <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
+                <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+              </div>
               <p class="footer-subtitle movie__footer-subtitle">смотреть трейлер</p>
-          </div>
-        </li>
-
-
-        <li class="movie">
-          <div class="movie__container">
-            <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
-            <div class="movie__heading-container">
-              <button class="heading">рубрика</button>
-              <button class="heading">рубрика</button>
             </div>
-          </div>
-          <div class="movie__info">
-            <div class="movie__top">
-              <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
-              <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+          </li>
+          <li class="movie main__movie">
+            <div class="movie__container">
+              <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
+              <div class="movie__heading-container">
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+              </div>
             </div>
+            <div class="movie__info">
+              <div class="movie__top">
+                <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
+                <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+              </div>
               <p class="footer-subtitle movie__footer-subtitle">смотреть трейлер</p>
-          </div>
-        </li>
-
-
-        <li class="movie">
-          <div class="movie__container">
-            <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
-            <div class="movie__heading-container">
-              <button class="heading">рубрика</button>
-              <button class="heading">рубрика</button>
             </div>
-          </div>
-          <div class="movie__info">
-            <div class="movie__top">
-              <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
-              <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+          </li>
+          <li class="movie main__movie">
+            <div class="movie__container">
+              <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
+              <div class="movie__heading-container">
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+              </div>
             </div>
+            <div class="movie__info">
+              <div class="movie__top">
+                <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
+                <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+              </div>
               <p class="footer-subtitle movie__footer-subtitle">смотреть трейлер</p>
-          </div>
-        </li>
-
-        <li class="movie">
-          <div class="movie__container">
-            <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
-            <div class="movie__heading-container">
-              <button class="heading">рубрика</button>
-              <button class="heading">рубрика</button>
             </div>
-          </div>
-          <div class="movie__info">
-            <div class="movie__top">
-              <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
-              <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+          </li>
+          <li class="movie main__movie">
+            <div class="movie__container">
+              <img class="movie__image" src="images/movie.jpg" alt="Заставка фильма">
+              <div class="movie__heading-container">
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+                <div class="heading">
+                  <p class="heading__text">рубрика</p>
+                </div>
+              </div>
             </div>
+            <div class="movie__info">
+              <div class="movie__top">
+                <h2 class="section-title movie__section-title">Жутко громко и запредельно близко</h2>
+                <p class="section-subtitle">Василий Сигарев, Борисов-Мусотов (Россия), 2009 год</p>
+              </div>
               <p class="footer-subtitle movie__footer-subtitle">смотреть трейлер</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="graduates-info">
+        <div class="ether">
+          <div class="ether__text">
+            <h2 class="section-title">Эфир с выпускником нашей программы</h2>
+            <p class="section-subtitle">Иван Рустаев, выпускник программы</p>
           </div>
-        </li>
-      </ul>
-    </section>
-
-    <section class="graduates-info">
-      <div class="ether">
-        <div class="ether__text">
-         <h2 class="section-title">Эфир с выпускником нашей программы</h2>
-        <p class="section-subtitle">Иван Рустаев, выпускник программы</p>
-     </div>
-      <p class="footer-subtitle ether__footer-subtitle">смотреть видео</p>
-      </div>
-    <img class="graduates" src="images/graduates.jpg">
-  </section>
-
-  <section class="social-problems section">
-    <div class="facebook">
-    <div class="fb-post" data-href="https://www.facebook.com/BigBrothers.BigSisters.Russia/posts/10159209910829812" data-width="420" data-show-text="false"><blockquote cite="https://www.facebook.com/BigBrothers.BigSisters.Russia/posts/10159209910829812" class="fb-xfbml-parse-ignore"><p>Есть интересные исследования, утверждающие, что чтобы быть успешным и выжить в новой реальности, человеку необходимо...</p>Опубликовано <a href="https://www.facebook.com/BigBrothers.BigSisters.Russia/">Старшие Братья Старшие Сестры / Big Brothers Big Sisters of Russia</a>&nbsp;<a href="https://www.facebook.com/BigBrothers.BigSisters.Russia/posts/10159209910829812">Четверг, 6 мая 2021 г.</a></blockquote></div>
-  </div>
-    <ul class="main-problems">
-      <li class="problem">
-        <h2 class="section-title problem__section-title">Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что делать?</h2>
-        <button class="heading problem__heading">рубрика</button>
-      </li>
-      <li class="problem">
-        <h2 class="section-title problem__section-title">Возможно ли продлить срок участия в программе, если и я и мой «младший» хотим остаться в программе?</h2>
-        <button class="heading problem__heading">рубрика</button>
-      </li>
-      <li class="problem">
-        <h2 class="section-title problem__section-title">Что делать если Ваш младший решил закрыть пару, т.к. слишком занят с учебой и друзьями?</h2>
-        <button class="heading problem__heading">рубрика</button>
-      </li>
-    </ul>
-  </section>
-
-    <article class="main-article main-article_color_green">
-      <p class="main-article__text">У таких детей возникает ощущение отверженности. Оно приводит к напряженности и недоверию к людям и, как итог, к реальному неприятию себя и окружающих.</p>
+          <p class="footer-subtitle ether__footer-subtitle">смотреть видео</p>
+        </div>
+        <img class="graduates" src="images/graduates.jpg" alt="Выпускники">
+      </section>
+      <section class="social-problems section">
+        <div class="facebook">
+          <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline, events, messages"
+            data-width="420" data-height="677" data-small-header="false" data-adapt-container-width="true"
+            data-hide-cover="false" data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+          </div>
+        </div>
+        <ul class="main-problems">
+          <li class="problem">
+            <h2 class="section-title problem__section-title">Я боюсь, что ребёнок ко мне слишком сильно привяжется. Что
+              делать?</h2>
+            <div class="heading problem__heading">
+              <p class="heading__text">рубрика</p>
+            </div>
+          </li>
+          <li class="problem">
+            <h2 class="section-title problem__section-title">Возможно ли продлить срок участия в программе, если и я и
+              мой «младший» хотим остаться в программе?</h2>
+            <div class="heading problem__heading">
+              <p class="heading__text">рубрика</p>
+            </div>
+          </li>
+          <li class="problem">
+            <h2 class="section-title problem__section-title">Что делать если Ваш младший решил закрыть пару, т.к.
+              слишком занят с учебой и друзьями?</h2>
+            <div class="heading problem__heading">
+              <p class="heading__text">рубрика</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <article class="main-article main-article_color_green">
+        <h2 class="main-article__text">У таких детей возникает ощущение отверженности. Оно приводит к напряженности и
+          недоверию к людям и, как итог, к реальному неприятию себя и окружающих.</h2>
         <p class="footer-subtitle">читать статью</p>
-    </article>
+      </article>
     </main>
     <footer class="footer">
       <div class="footer__content">
@@ -211,37 +241,46 @@
         <button class="button button_place_footer" type="button">Помочь деньгами</button>
         <nav class="menu menu_place_footer">
           <ul class="menu__list menu__list_place_footer">
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">о проекте</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">календарь</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">куда пойти</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">вопросы</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">читать и смотреть</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">права детей</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">истории</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">о
+                проекте</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">календарь</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">куда
+                пойти</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">вопросы</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">читать
+                и смотреть</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">права
+                детей</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">истории</a></li>
           </ul>
         </nav>
-          <ul class="footer__socials menu__list menu__list_place_footer">
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Facebook</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">VKontakte</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Instagram</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Уoutube</a></li>
-          </ul>
-          <div class="footer__info">
-            <div class="footer__description">
+        <ul class="footer__socials menu__list menu__list_place_footer">
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Facebook</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">VKontakte</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Instagram</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Уoutube</a></li>
+        </ul>
+        <div class="footer__info">
+          <div class="footer__description">
             <p class="footer__text footer__text_type_copyright">© Старшие Братья Старшие Сестры</p>
-            <p class="footer__text footer__text_type_authors">Разработка – студенты <a class="footer__link" href="#">Яндекс.Практикум</a></p>
+            <p class="footer__text footer__text_type_authors">Разработка – студенты <a class="footer__link"
+                href="#">Яндекс.Практикум</a></p>
           </div>
-            <p class="footer__text footer__text_type_design">Концепия и дизайн – <a class="footer__link" href="#">krkr.design</a></p>
+          <p class="footer__text footer__text_type_design">Концепия и дизайн – <a class="footer__link"
+              href="#">krkr.design</a></p>
+        </div>
       </div>
     </footer>
   </div>
   <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0" nonce="WMgyIGR1"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v10.0"
+    nonce="2axzUVsi"></script>
 </body>
 </html>
-
-
-
-
-
-

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/kudago.css">
   <title>Document</title>
 </head>
-<body>
+
+<body class="body">
   <div class="page kudago">
     <header class="header section">
       <a class="logo-link" href="#">
-        <h1 class="logo">наставники.про</h1>
-        </a>
-
+        <p class="logo">наставники.про</p>
+      </a>
       <nav class="menu menu_place_header">
         <ul class="menu__list">
           <li class="menu__item"><a class="menu__link" href="#">календарь</a></li>
@@ -33,30 +34,39 @@
       </ul>
       <button class="burger"></button>
     </header>
-
-
-    <h1 class="page-title">Куда пойти</h1>
-
-    <ul class="buttons-list section__buttons-list">
-      <button class="button button_place_buttons-list button_fill_black" type="button">Все</button>
-      <button class="button button_place_buttons-list" type="button">Выбор наставников</button>
-      <button class="button button_place_buttons-list" type="button">Музеи</button>
-      <button class="button button_place_buttons-list" type="button">Парки</button>
-      <button class="button button_place_buttons-list" type="button">Театры</button>
-      <button class="button button_place_buttons-list" type="button">Спорт</button>
-      <button class="button button_place_buttons-list" type="button">Экскурсии</button>
-      <button class="button button_place_buttons-list" type="button">Секции</button>
-      <button class="button button_place_buttons-list" type="button">8–10 лет</button>
-      <button class="button button_place_buttons-list" type="button">11–13 лет</button>
-      <button class="button button_place_buttons-list" type="button">14–18 лет</button>
-      <button class="button button_place_buttons-list" type="button">18+ лет</button>
-    </ul>
-
-
-    <main>
+    <main class="page-container">
+      <h1 class="page-title">Куда пойти</h1>
+      <ul class="buttons-list section__buttons-list">
+        <li class="buttons-list__item"><button class="button button_place_buttons-list button_fill_black"
+            type="button">Все</button></li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Выбор
+            наставников</button></li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Музеи</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Парки</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Театры</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Спорт</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Экскурсии</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Секции</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">8–10 лет</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">11–13 лет</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">14–18 лет</button>
+        </li>
+        <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">18+ лет</button>
+        </li>
+      </ul>
       <section class="mentor kudago__mentor section">
         <div class="choosing-mentor">
-          <button class="heading">выбор наставника</button>
+          <div class="heading">
+            <p class="heading__text">выбор наставника</p>
+          </div>
           <h2 class="section-title choosing-mentor__section-title ">Сплав на байдарках в две строки</h2>
           <p class="section-subtitle">усадьба Архангельское в две строки</p>
           <img class="choosing-mentor__image" src="images/choosing-mentor.jpg" alt="Девушки на пляже">
@@ -66,116 +76,154 @@
           <p class="annotation__title">Девочка, 10 лет. Активный отдых</p>
           <div class="annotation__text">
             <p class="annotation__paragraph"> Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился
-            говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не 
-            понимать друг друга,  потом понимать чуть лучше и, Аннотация статьи в несколько абзацев. В тот момент,
-            как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.
-            Вы будете не понимать друг друга,  потом понимать чуть лучше и,</p>
-          <p class="annotation__paragraph">Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово, а 
-            задавать бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько абзацев.
-            В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется.</p>
+              говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не 
+              понимать друг друга, потом понимать чуть лучше и, Аннотация статьи в несколько абзацев. В тот момент,
+              как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов, жизнь
+              меняется.
+              Вы будете не понимать друг друга, потом понимать чуть лучше и,</p>
+            <p class="annotation__paragraph">Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился
+              говорить, и не одно слово, а 
+              задавать бесконечное количество вопросов, жизнь меняется. Вы будете не по Аннотация статьи в несколько
+              абзацев.
+              В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов,
+              жизнь меняется.</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section class="places-list">
+        <ul class="places section">
+          <li class="place kudago__place">
+            <div class="place__header container container_color_green">
+              <div class="heading">
+                <p class="heading__text">выбор наставника</p>
+              </div>
+              <h2 class="section-title place__section-title">Название места несколько слов</h2>
+              <p class="section-subtitle place__section-subtitle">Длинный адрес места в несколько строк, длинный адрес
+                места. </p>
+              <p class="footer-subtitle place__footer-subtitle">перейти на сайт</p>
+            </div>
+            <div class="slider">
+              <div class="slider__content">
+                <h2 class="section-subtitle slider__section-subtitle">Девочка, 10 лет. Познавательный отдых</h2>
+                <p class="slider__text">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился
+                  говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                  понимать чуть лучше и, в конце
+                  концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов,
+                  жизнь меняется.
+                  Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок
+                  научился говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                  понимать чуть лучше и, в конце концов,
+                  научитесь даже шутить. Аннотация статьи в несколько абзацев. </p>
+              </div>
+            </div>
+          </li>
+          <li class="place kudago__place">
+            <div class="place__header container container_color_yellow">
+              <div class="heading">
+                <p class="heading__text">выбор наставника</p>
+              </div>
+              <h2 class="section-title place__section-title">Название места</h2>
+              <p class="section-subtitle place__section-subtitle">Длинный адрес места в несколько строк, длинный адрес
+                места. </p>
+              <p class="footer-subtitle place__footer-subtitle">перейти на сайт</p>
+            </div>
+            <div class="slider">
+              <div class="slider__content">
+                <h2 class="section-subtitle slider__section-subtitle">Девочка, 10 лет. Познавательный отдых</h2>
+                <p class="slider__text">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился
+                  говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                  понимать чуть лучше и, в конце
+                  концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов,
+                  жизнь меняется.
+                  Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок
+                  научился говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                  понимать чуть лучше и, в конце концов,
+                  научитесь даже шутить. Аннотация статьи в несколько абзацев. </p>
+              </div>
+            </div>
+          </li>
+          <li class="place kudago__place">
+            <div class="place__header container container_color_orange">
+              <div class="place__top-header">
+                <div class="heading">
+                  <p class="heading__text">выбор наставника</p>
+                </div>
+                <h2 class="section-title place__section-title">Фотосессия на природе</h2>
+                <p class="section-subtitle place__section-subtitle">Адрес места в одну строку</p>
+              </div>
+              <p class="footer-subtitle place__footer-subtitle">перейти на сайт</p>
+            </div>
+            <div class="slider">
+              <div class="slider__content">
+                <h2 class="section-subtitle slider__section-subtitle">Девочка, 10 лет. Познавательный отдых</h2>
+                <p class="slider__text">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился
+                  говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                  понимать чуть лучше и, в конце
+                  концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов,
+                  жизнь меняется.
+                  Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок
+                  научился говорить, и не одно слово,
+                  а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом
+                  понимать чуть лучше и, в конце концов,
+                  научитесь даже шутить. Аннотация статьи в несколько абзацев. </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
     </main>
-
-    <ul class="places section">
-
-    <li class="place">
-      <div class="place__header place__header_color_green">
-        <button class="heading place__heading">выбор наставника</button>
-        <h2 class="section-title place__section-title">Название места несколько слов</h2>
-        <p class="section-subtitle place__section-subtitle">Длинный адрес места в несколько строк, длинный адрес места. </p>
-        <p class="footer-subtitle place__footer-subtitle">перейти на сайт</p>
-      </div>
-      <div class="slider">
-        <div class="slider__content">
-          <p class="section-subtitle slider__section-subtitle">Девочка, 10 лет. Познавательный отдых</p>
-          <p class="slider__text">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
-            а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце
-            концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов,
-            жизнь меняется.
-            Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
-            а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце концов,
-            научитесь даже шутить. Аннотация статьи в несколько абзацев. </p>
-        </div>
-      </div>
-    </li>
-
-    <li class="place">
-      <div class="place__header place__header_color_green">
-        <button class="heading place__heading">выбор наставника</button>
-        <h2 class="section-title place__section-title">Название места</h2>
-        <p class="section-subtitle place__section-subtitle">Длинный адрес места в несколько строк, длинный адрес места. </p>
-        <p class="footer-subtitle place__footer-subtitle">перейти на сайт</p>
-      </div>
-      <div class="slider">
-        <div class="slider__content">
-          <p class="section-subtitle slider__section-subtitle">Девочка, 10 лет. Познавательный отдых</p>
-          <p class="slider__text">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
-            а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце
-            концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов,
-            жизнь меняется.
-            Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
-            а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце концов,
-            научитесь даже шутить. Аннотация статьи в несколько абзацев. </p>
-        </div>
-      </div>
-    </li>
-
-    <li class="place">
-      <div class="place__header place__header_color_green">
-        <div class="place__top-header">
-          <button class="heading place__heading">выбор наставника</button>
-          <h2 class="section-title place__section-title">Фотосессия на природе</h2>
-          <p class="section-subtitle place__section-subtitle">Адрес места в одну строку</p>
-        </div>
-        <p class="footer-subtitle place__footer-subtitle">перейти на сайт</p>
-      </div>
-      <div class="slider">
-        <div class="slider__content">
-          <p class="section-subtitle slider__section-subtitle">Девочка, 10 лет. Познавательный отдых</p>
-          <p class="slider__text">Аннотация книги в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
-            а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце
-            концов, научитесь даже шутить. В тот момент, как ребёнок научился говорить, и не одно слово, а задавать бесконечное количество вопросов,
-            жизнь меняется.
-            Аннотация статьи в несколько абзацев. Аннотация статьи в несколько абзацев. В тот момент, как ребёнок научился говорить, и не одно слово,
-            а задавать бесконечное количество вопросов, жизнь меняется. Вы будете не понимать друг друга, потом понимать чуть лучше и, в конце концов,
-            научитесь даже шутить. Аннотация статьи в несколько абзацев. </p>
-        </div>
-      </div>
-    </li>
-
-  </ul>
-
     <footer class="footer">
       <div class="footer__content">
         <a class="footer__logo" href="#"></a>
         <button class="button button_place_footer" type="button">Помочь деньгами</button>
         <nav class="menu menu_place_footer">
           <ul class="menu__list menu__list_place_footer">
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">о проекте</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">календарь</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">куда пойти</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">вопросы</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">читать и смотреть</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">права детей</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">истории</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">о
+                проекте</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">календарь</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">куда
+                пойти</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">вопросы</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">читать
+                и смотреть</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">права
+                детей</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">истории</a></li>
           </ul>
         </nav>
-          <ul class="footer__socials menu__list menu__list_place_footer">
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Facebook</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">VKontakte</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Instagram</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Уoutube</a></li>
-          </ul>
-          <div class="footer__info">
-            <div class="footer__description">
+        <ul class="footer__socials menu__list menu__list_place_footer">
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Facebook</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">VKontakte</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Instagram</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Уoutube</a></li>
+        </ul>
+        <div class="footer__info">
+          <div class="footer__description">
             <p class="footer__text footer__text_type_copyright">© Старшие Братья Старшие Сестры</p>
-            <p class="footer__text footer__text_type_authors">Разработка – студенты <a class="footer__link" href="#">Яндекс.Практикум</a></p>
+            <p class="footer__text footer__text_type_authors">Разработка – студенты <a class="footer__link"
+                href="#">Яндекс.Практикум</a></p>
           </div>
-            <p class="footer__text footer__text_type_design">Концепия и дизайн – <a class="footer__link" href="#">krkr.design</a></p>
+          <p class="footer__text footer__text_type_design">Концепия и дизайн – <a class="footer__link"
+              href="#">krkr.design</a></p>
+        </div>
       </div>
     </footer>
   </div>
 </body>
+
 </html>

@@ -6,6 +6,7 @@
   font-weight: 300;
   color: #224cff;
   cursor: pointer;
+  transition: color .2s ease-in-out;
 }
 
 @media (max-width: 500px) {

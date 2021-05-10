@@ -1,5 +1,19 @@
 .button_place_buttons-list {
+  display: inline-block;
   color: #000;
   border: 1px solid #000;
   margin-top: 15px;
+}
+
+.button_place_buttons-list:hover {
+  background-color: #e0e0e0;
+}
+
+.button_place_buttons-list:focus {
+  background-color: #000;
+  color: #fff;
+}
+
+.button_place_buttons-list:focus:hover {
+  background-color: #2e2468;
 }

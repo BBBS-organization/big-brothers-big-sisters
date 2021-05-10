@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="pages/calendar.css">
   <title>Document</title>
 </head>
-<body>
-  <div class="page">
+
+<body class="body">
+  <div class="page calendar-page">
     <header class="header section">
       <a class="logo-link" href="#">
-        <h1 class="logo">наставники.про</h1>
-        </a>
-
+        <p class="logo">наставники.про</p>
+      </a>
       <nav class="menu menu_place_header">
         <ul class="menu__list">
           <li class="menu__item"><a class="menu__link" href="#">календарь</a></li>
@@ -33,145 +34,185 @@
       </ul>
       <button class="burger"></button>
     </header>
-
-
-    <h1 class="page-title">Календарь</h1>
-
-    <ul class="buttons-list section__buttons-list">
-      <button class="button button_place_buttons-list button_fill_black" type="button">Декабрь</button>
-      <button class="button button_place_buttons-list" type="button">Январь</button>
-    </ul>
-
-
-    <ul class="calendar-list section">
-      <li class="calendar calendar_entry">
-        <div class="calendar__header">
-          <div class="calendar__name">
-            <p class="calendar__participants">Волонтёры + дети</p>
-            <p class="calendar__day">декабрь / понедельник</p>
-          </div>
-          <div class="calendar__date">
-            <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
-            <p class="calendar__number">05</p>
-          </div>
-        </div>
-        <div class="calendar__content">
-          <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
-          <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-          <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
-          <div class="calendar__footer">
-            <div class="calendar__participation">
-              <button class="button button_place_calendar button_entry" type="button">Записаться</button>
-              <p class="calendar__signature">Осталось 5 мест</p>
+    <main class="page-container">
+      <section class="calendars-list">
+        <h1 class="page-title">Календарь</h1>
+        <ul class="buttons-list section__buttons-list">
+          <li class="buttons-list__item"><button class="button button_place_buttons-list button_fill_black"
+              type="button">Декабрь</button></li>
+          <li class="buttons-list__item"><button class="button button_place_buttons-list" type="button">Январь</button>
+          </li>
+        </ul>
+        <ul class="calendar-list section">
+          <li class="calendar calendar_entry calendar-page__calendar">
+            <div class="calendar__header">
+              <div class="calendar__name">
+                <p class="calendar__participants">Волонтёры + дети</p>
+                <p class="calendar__day">декабрь / понедельник</p>
+              </div>
+              <div class="calendar__date">
+                <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
+                <p class="calendar__number">05</p>
+              </div>
             </div>
-            <button class="calendar__button"></button>
-          </div>
-        </div>
-      </li>
-
-      <li class="calendar">
-        <div class="calendar__header">
-          <div class="calendar__name">
-            <p class="calendar__participants">Волонтёры + дети</p>
-            <p class="calendar__day">декабрь / понедельник</p>
-          </div>
-          <div class="calendar__date">
-            <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
-            <p class="calendar__number">05</p>
-          </div>
-        </div>
-        <div class="calendar__content">
-          <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
-          <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-          <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
-          <div class="calendar__footer">
-            <div class="calendar__participation">
-              <button class="button button_place_calendar button_disabled" type="button">Записаться</button>
-              <p class="calendar__signature">Осталось 5 мест</p>
+            <div class="calendar__content">
+              <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
+              <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании
+                Ernst&Young)</p>
+              <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
+              <div class="calendar__footer">
+                <div class="calendar__participation">
+                  <button class="button button_place_calendar button_entry" type="button">Записаться</button>
+                  <p class="calendar__signature">Осталось 5 мест</p>
+                </div>
+                <button class="calendar__button"></button>
+              </div>
             </div>
-            <button class="calendar__button"></button>
-          </div>
-        </div>
-      </li>
-
-      <li class="calendar">
-        <div class="calendar__header">
-          <div class="calendar__name">
-            <p class="calendar__participants">Волонтёры + дети</p>
-            <p class="calendar__day">декабрь / понедельник</p>
-          </div>
-          <div class="calendar__date">
-            <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
-            <p class="calendar__number">05</p>
-          </div>
-        </div>
-        <div class="calendar__content">
-          <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
-          <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-          <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
-          <div class="calendar__footer">
-            <div class="calendar__participation">
-              <button class="button button_place_calendar" type="button">Записаться</button>
-              <p class="calendar__signature">Осталось 5 мест</p>
+          </li>
+          <li class="calendar calendar-page__calendar">
+            <div class="calendar__header">
+              <div class="calendar__name">
+                <p class="calendar__participants">Волонтёры + дети</p>
+                <p class="calendar__day">декабрь / понедельник</p>
+              </div>
+              <div class="calendar__date">
+                <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
+                <p class="calendar__number">05</p>
+              </div>
             </div>
-            <button class="calendar__button"></button>
-          </div>
-        </div>
-      </li>
-
-      <li class="calendar">
-        <div class="calendar__header">
-          <div class="calendar__name">
-            <p class="calendar__participants">Волонтёры + дети</p>
-            <p class="calendar__day">декабрь / понедельник</p>
-          </div>
-          <div class="calendar__date">
-            <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
-            <p class="calendar__number">05</p>
-          </div>
-        </div>
-        <div class="calendar__content">
-          <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
-          <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании Ernst&Young)</p>
-          <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
-          <div class="calendar__footer">
-            <div class="calendar__participation">
-              <button class="button button_place_calendar" type="button">Записаться</button>
-              <p class="calendar__signature">Осталось 5 мест</p>
+            <div class="calendar__content">
+              <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
+              <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании
+                Ernst&Young)</p>
+              <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
+              <div class="calendar__footer">
+                <div class="calendar__participation">
+                  <button class="button button_place_calendar button_disabled" type="button">Записаться</button>
+                  <p class="calendar__signature">Осталось 5 мест</p>
+                </div>
+                <button class="calendar__button"></button>
+              </div>
             </div>
-            <button class="calendar__button"></button>
-          </div>
-        </div>
-      </li>
-    </ul>
-
+          </li>
+          <li class="calendar calendar-page__calendar">
+            <div class="calendar__header">
+              <div class="calendar__name">
+                <p class="calendar__participants">Волонтёры + дети</p>
+                <p class="calendar__day">декабрь / понедельник</p>
+              </div>
+              <div class="calendar__date">
+                <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
+                <p class="calendar__number">05</p>
+              </div>
+            </div>
+            <div class="calendar__content">
+              <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
+              <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании
+                Ernst&Young)</p>
+              <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
+              <div class="calendar__footer">
+                <div class="calendar__participation">
+                  <button class="button button_place_calendar" type="button">Записаться</button>
+                  <p class="calendar__signature">Осталось 5 мест</p>
+                </div>
+                <button class="calendar__button"></button>
+              </div>
+            </div>
+          </li>
+          <li class="calendar calendar-page__calendar">
+            <div class="calendar__header">
+              <div class="calendar__name">
+                <p class="calendar__participants">Волонтёры + дети</p>
+                <p class="calendar__day">декабрь / понедельник</p>
+              </div>
+              <div class="calendar__date">
+                <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
+                <p class="calendar__number">05</p>
+              </div>
+            </div>
+            <div class="calendar__content">
+              <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
+              <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании
+                Ernst&Young)</p>
+              <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
+              <div class="calendar__footer">
+                <div class="calendar__participation">
+                  <button class="button button_place_calendar" type="button">Записаться</button>
+                  <p class="calendar__signature">Осталось 5 мест</p>
+                </div>
+                <button class="calendar__button"></button>
+              </div>
+            </div>
+          </li>
+          <li class="calendar calendar-page__calendar">
+            <div class="calendar__header">
+              <div class="calendar__name">
+                <p class="calendar__participants">Волонтёры + дети</p>
+                <p class="calendar__day">декабрь / понедельник</p>
+              </div>
+              <div class="calendar__date">
+                <h2 class="section-title calendar__section-title">Субботний meet up: учимся проходить интевью</h2>
+                <p class="calendar__number">05</p>
+              </div>
+            </div>
+            <div class="calendar__content">
+              <p class="calendar__text calendar__text_type_time">12:00–14:00</p>
+              <p class="calendar__text calendar__text_type_address">Садовническая наб., д. 77 стр. 1 (офис компании
+                Ernst&Young)</p>
+              <p class="calendar__text calendar__text_type_people">Александра, +7 926 356-78-90</p>
+              <div class="calendar__footer">
+                <div class="calendar__participation">
+                  <button class="button button_place_calendar" type="button">Записаться</button>
+                  <p class="calendar__signature">Осталось 5 мест</p>
+                </div>
+                <button class="calendar__button"></button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
     <footer class="footer">
       <div class="footer__content">
         <a class="footer__logo" href="#"></a>
         <button class="button button_place_footer" type="button">Помочь деньгами</button>
         <nav class="menu menu_place_footer">
           <ul class="menu__list menu__list_place_footer">
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">о проекте</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">календарь</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">куда пойти</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">вопросы</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">читать и смотреть</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">права детей</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">истории</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">о
+                проекте</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">календарь</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">куда
+                пойти</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">вопросы</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">читать
+                и смотреть</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">права
+                детей</a></li>
+            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+                href="#">истории</a></li>
           </ul>
         </nav>
-          <ul class="footer__socials menu__list menu__list_place_footer">
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Facebook</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">VKontakte</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Instagram</a></li>
-            <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer" href="#">Уoutube</a></li>
-          </ul>
-          <div class="footer__info">
-            <div class="footer__description">
+        <ul class="footer__socials menu__list menu__list_place_footer">
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Facebook</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">VKontakte</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Instagram</a></li>
+          <li class="menu__item menu__item_place_footer"><a class="menu__link menu__link_place_footer"
+              href="#">Уoutube</a></li>
+        </ul>
+        <div class="footer__info">
+          <div class="footer__description">
             <p class="footer__text footer__text_type_copyright">© Старшие Братья Старшие Сестры</p>
-            <p class="footer__text footer__text_type_authors">Разработка – студенты <a class="footer__link" href="#">Яндекс.Практикум</a></p>
+            <p class="footer__text footer__text_type_authors">Разработка – студенты <a class="footer__link"
+                href="#">Яндекс.Практикум</a></p>
           </div>
-            <p class="footer__text footer__text_type_design">Концепия и дизайн – <a class="footer__link" href="#">krkr.design</a></p>
+          <p class="footer__text footer__text_type_design">Концепия и дизайн – <a class="footer__link"
+              href="#">krkr.design</a></p>
+        </div>
       </div>
     </footer>
   </div>

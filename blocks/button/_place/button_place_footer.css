@@ -10,3 +10,8 @@
     margin-right: 0;
   }
 }
+
+.button_place_footer:hover {
+  border-color: #224cff;
+  color: #224cff;
+}

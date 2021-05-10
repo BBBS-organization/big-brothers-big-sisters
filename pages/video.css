@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/body/body.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section/_type/section_type_footer.css);
@@ -129,6 +130,7 @@
 @import url(../blocks/menu/__item/_place/menu__item_place_footer.css);
 @import url(../blocks/section/__buttons-list/section__buttons-list.css);
 @import url(../blocks/buttons-list/buttons-list.css);
+@import url(../blocks/buttons-list/__item/buttons-list__item.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_place/button_place_footer.css);
 @import url(../blocks/button/_place/button_place_buttons-list.css);
@@ -160,3 +162,5 @@
 @import url(../blocks/movie/__footer-subtitle/movie__footer-subtitle.css);
 
 @import url(../blocks/video/__graduates-info/video__graduates-info.css);
+
+@import url(../blocks/video/__movie/video__movie.css);

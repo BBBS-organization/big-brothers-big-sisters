@@ -2,3 +2,12 @@
   color: #224cff;
   border: 1px solid #224cff;
 }
+
+.button_place_calendar:hover {
+  background-color: #c8d1ff;
+}
+
+.button_place_calendar:focus {
+  background-color: #224cff;
+  color: #fff;
+}
