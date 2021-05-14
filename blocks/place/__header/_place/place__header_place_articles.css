@@ -1,3 +1,4 @@
 .place__header_place_articles {
   padding: 37px 30px 15px;
+  flex-grow: 1;
 }

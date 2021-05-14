@@ -1,5 +1,7 @@
 .footer-subtitle {
   margin: 0;
+  padding: 0;
+  text-decoration: none;
   font-size: 15px;
   line-height: 1.2;
   font-weight: 300;

@@ -4,7 +4,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 
@@ -121,6 +120,13 @@
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__movie/main__movie.css);
 
+@import url(../blocks/movie/__info/movie__info.css);
+
+@import url(../blocks/menu/__list/_content/menu__list_content_socials.css);
+
+@import url(../blocks/search-form/search-form.css);
+@import url(../blocks/search-form/__input/search-form__input.css);
+@import url(../blocks/search-form/_active/search-form_active.css);
 @media (max-width: 1500px) {
   .project-info__text {
     padding: 72.5px 0;

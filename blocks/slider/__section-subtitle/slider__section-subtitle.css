@@ -1,3 +1,10 @@
 .slider__section-subtitle {
   text-align: left;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1300px) {
+  .slider__section-subtitle {
+    padding-bottom: 5px;
+  }
 }

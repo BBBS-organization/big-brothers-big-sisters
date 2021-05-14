@@ -5,7 +5,6 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
@@ -102,3 +101,4 @@
 @import url(../blocks/choosing-mentor/__section-title/choosing-mentor__section-title.css);
 @import url(../blocks/kudago/__mentor/kudago__mentor.css);
 @import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/menu/__list/_content/menu__list_content_socials.css);

@@ -5,7 +5,6 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
@@ -71,3 +70,4 @@
 @import url(../blocks/calendar/_entry/calendar_entry.css);
 
 @import url(../blocks/calendar-page/__calendar/calendar-page__calendar.css);
+@import url(../blocks/menu/__list/_content/menu__list_content_socials.css);

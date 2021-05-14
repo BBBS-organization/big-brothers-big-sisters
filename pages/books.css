@@ -4,7 +4,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/list-grid/list-grid.css);
@@ -78,7 +77,6 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
@@ -160,3 +158,4 @@
 @import url(../blocks/book/__cover/_type/book__cover_type_scientific.css);
 @import url(../blocks/book/divider/book__divider.css);
 @import url(../blocks/book/__authors/book__authors.css);
+@import url(../blocks/menu/__list/_content/menu__list_content_socials.css);

@@ -1,0 +1,16 @@
+.search-form__input {
+  border: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+  width: 1200px;
+  font-family: 'PT Root UI', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.35;
+  color: #000;
+}
+
+.search-form__input:focus {
+  outline: none;
+}

@@ -1,3 +1,8 @@
 .list-of-contents__button_active {
   border: 1px solid #000;
+  transition: border .2s ease-in-out;
+}
+
+.list-of-contents__button_active:hover {
+  border: 1px solid #224cff;
 }

@@ -5,7 +5,6 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
@@ -84,3 +83,11 @@
 @import url(../blocks/container/_color/container_color_green.css);
 @import url(../blocks/container/_color/container_color_yellow.css);
 @import url(../blocks/container/_color/container_color_orange.css);
+
+@import url(../blocks/place/__top-header/place__top-header.css);
+@import url(../blocks/menu/__list/_content/menu__list_content_socials.css);
+@import url(../blocks/annotation/annotation.css);
+@import url(../blocks/annotation/__content/annotation__content.css);
+@import url(../blocks/annotation/__title/annotation__title.css);
+@import url(../blocks/annotation/__text/annotation__text.css);
+@import url(../blocks/annotation/__paragraph/annotation__paragraph.css);

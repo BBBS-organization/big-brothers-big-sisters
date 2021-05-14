@@ -18,5 +18,4 @@
   .card-slider:nth-last-child(-n + 14) {
     display: none;
   }
-
 }

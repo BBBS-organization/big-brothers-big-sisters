@@ -1,12 +1,6 @@
 .calendar__footer {
-  margin-top: 43px;
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-@media (max-width: 1300px) {
-  .calendar__footer {
-    margin-top: 30px;
-  }
 }

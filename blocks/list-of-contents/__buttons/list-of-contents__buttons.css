@@ -12,3 +12,9 @@
     padding-right: 25px;
   }
 }
+
+@media (max-width: 850px) {
+  .list-of-contents__buttons {
+    padding-right: 13px;
+  }
+}

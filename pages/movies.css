@@ -4,7 +4,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/list-grid/list-grid.css);
@@ -78,7 +77,6 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/section/section.css);
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section/_type/section_type_footer.css);
 @import url(../blocks/logo-link/logo-link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/menu/menu.css);
@@ -156,3 +154,6 @@
 @import url(../blocks/card-slider/card-slider.css);
 
 @import url(../blocks/movie-page/__card-slider/movie-page__card-slider.css);
+@import url(../blocks/movie/__section-title/movie__section-title.css);
+@import url(../blocks/movie/__footer-subtitle/movie__footer-subtitle.css);
+@import url(../blocks/menu/__list/_content/menu__list_content_socials.css);
